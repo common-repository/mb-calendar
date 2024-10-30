@@ -1,0 +1,79 @@
+.mbwpc-hidden {
+  display: none;
+}
+
+.mbwpc-settings {
+  width: 100%;
+}
+
+.mbwpc-settings td {
+  padding: 0 5px;
+}
+
+.mbwpc-separator {
+  height: 1px;
+  background-color: #E8E8E8;
+  border: none;
+  margin: 15px 0;
+}
+
+#mbwpc-calendar-filter {
+  width: 180px;
+}
+
+#preview-action, #edit-slug-box, #visibility, select[name="m"], label[for="slugdiv-hide"] {
+  display: none;
+}
+
+.mbwpc-settings input[type="text"] {
+  width: 100px;
+}
+
+.mbwpc-settings input[name="mbwpc-location"] {
+  width: 280px;
+}
+
+.mbwpc-settings select {
+  width: 205px;
+}
+
+.mbwpc-tabs {
+  clear: both;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 0 !important;
+}
+
+.mbwpc-tabs li {
+  border: 1px solid #D7D7D7;
+  background-color: #E7E7E7;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  float: left;
+  padding: 5px 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 5px;
+  color: #6A6A6A;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.mbwpc-active-tab, .mbwpc-tabs li:hover {
+  background-color: #fff !important;
+}
+
+.mbwpc-tab-content {
+  border: 1px solid #D7D7D7;
+  padding: 10px 0 20px 0;
+}
+
+.mbwpc-languages-list {
+  width: 600px;
+}
+
+.mbwpc-languages-list tr:hover td {
+  background-color: #E9E9E9;
+}

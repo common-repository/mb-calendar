@@ -1,0 +1,225 @@
+.mbc {
+  color: #616163 !important;
+  border: 1px solid #D2D2D2 !important;
+  text-align: left !important;
+  font-family: Arial !important;
+  width: 98% !important;
+  position: relative !important;
+  margin: 20px 0 !important;
+  padding: 1px;
+}
+
+.mbc-calendar-view {
+  border: 1px solid #fff !important;
+  border-collapse: collapse;
+  border-top: none !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+.mbc-calendar-view th, .mbc-calendar-view td {
+  text-align: center !important;
+  width: 14% !important;
+}
+
+.mbc-calendar-view th {
+  border: none !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  background-color: #fff !important;
+  color: #616163 !important;
+  font-weight: normal !important;
+  letter-spacing: normal !important;
+  line-height: normal !important;
+  text-transform: none !important;
+  padding: 15px !important;
+}
+
+.mbc-calendar-view td {
+  border: 1px solid #D2D2D2 !important;
+  background: #dadada url(../images/regular_day_gd.png) repeat-x left top !important;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 !important;
+  color: #616163 !important;
+  font-size: 15px !important;
+  font-weight: bold;
+}
+
+.mbc-calendar-view .mbc-other-month-day {
+  color: #afafaf !important;
+}
+
+.mbc-calendar-view .mbc-weekend-day {
+  background: #d2ffcd url(../images/weekend_gd.png) repeat-x left top !important;
+}
+
+.mbc-calendar-view .mbc-other-month-weekend-day {
+  background: #d2ffcd url(../images/weekend_gd.png) repeat-x left top !important;
+  color: #AFAFAF !important;
+}
+
+.mbc-calendar-view .mbc-has-events {
+  background: #1e68a0 url(../images/has_events_gd.png) repeat-x left top !important;
+  color: #fff !important;
+  cursor: pointer !important;
+}
+
+.mbc-hide {
+  display: none !important;
+}
+
+.mbc-event-list-view {
+  min-height: 100px !important;
+}
+
+.mbc-events-sort {
+  float: right !important;
+  font-size: 14px !important;
+  color: #616163 !important;
+  margin: 0 !important;
+  padding: 0 0 20px 0 !important;
+  width: 100% !important;
+}
+
+.mbc-events-sort dt {
+  font-weight: bold;
+}
+
+.mbc-events-sort dt, .mbc-events-sort dd {
+  float: right !important;
+  padding-right: 15px !important;
+  margin: 0 !important;
+}
+
+.mbc-events-sort dd:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.mbc-events {
+  padding: 20px 5px 5px !important;
+}
+
+.mbc-event {
+  border-bottom: 1px solid #D2D2D2 !important;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.mbc-event-info {
+  font-size: 13px !important;
+  line-height: 140% !important;
+  color: #616163 !important;
+}
+
+.mbc-event-title {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  margin: 0 0 5px 0 !important;
+  cursor: pointer !important;
+  color: #175B9F;
+}
+
+.mbc-event-title:hover {
+  text-decoration: none !important;
+}
+
+.mbc-event-desc {
+  font-size: 14px !important;
+  line-height: 140% !important;
+  margin-top: 10px;
+}
+
+.mbc-event-priority {
+  float: left !important;
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 10px !important;
+  text-indent: -9999px !important;
+}
+
+.mbc-priority-low {
+  background-color: #A3FF4C !important;
+}
+
+.mbc-priority-normal {
+  background-color: #4C9AFF !important;
+}
+
+.mbc-priority-high {
+  background-color: #FF554C !important;
+}
+
+.mbc-header {
+  height: 59px !important;
+  line-height: 59px !important;
+  text-align: center !important;
+  padding: 0 10px !important;
+  background: #2c699a url(../images/header_gd.png) repeat-x left top !important;
+  color: #fff;
+  font-weight: bold;
+}
+
+.mbc-change-month {
+  cursor: pointer !important;
+}
+
+.mbc-prev-month, .mbc-next-month {
+  font-size: 25px;
+}
+
+.mbc-prev-month {
+  float: left !important;
+}
+
+.mbc-next-month {
+  float: right !important;
+}
+
+.mbc-navigation {
+  width: 50% !important;
+  margin: 0 auto !important;
+  font-size: 20px;
+}
+
+.mbc-change-view {
+  float: left !important;
+  font-size: 14px !important;
+  background: #3c9ceb url(../images/button_gd.png) repeat-x left bottom !important;
+  padding: 0 10px !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  height: 27px !important;
+  line-height: 27px !important;
+  margin-top: 16px !important;
+  border-radius: 5px !important;
+  width: 70px !important;
+}
+
+.mbc-change-view:hover, .mbc-current:hover {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
+
+.mbc-loading-cover, .mbc-loading {
+  position: absolute !important;
+  top: 60px !important;
+  left: 0 !important;
+  width: 100% !important;
+}
+
+.mbc-loading-cover {
+  background-color: #fff !important;
+  opacity: 0.8 !important;
+}
+
+.mbc-loading {
+  background: transparent url(../images/loading.gif) no-repeat center center !important;
+}
+
+.mbc-current-month {
+  float: right !important;
+  padding-right: 10px;
+}
